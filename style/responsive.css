@@ -1,0 +1,571 @@
+/* |||||||||||||||||||||||||||||||||||||||||||
+                (max-width:1399px)
+||||||||||||||||||||||||||||||||||||||||||||||||| */
+@media(max-width:1399px) {
+
+    /* ------------------------------------
+                #sec -quick-list
+------------------------------------------ */
+    .quick-list {
+        width: calc(100% - 228px);
+    }
+
+    /* ------------------------------------
+         #sec -popular-features
+------------------------------------------ */
+    .popular-features {
+        width: calc(100% - 200px);
+    }
+
+    .experience-design {
+        width: 250px;
+        height: 150px;
+    }
+
+    .experience-design h1 {
+        font-size: 30px;
+    }
+
+    .experience-design span {
+        font-size: 18px;
+    }
+
+
+    /* ------------------------------------
+         #sec -facts
+------------------------------------------ */
+    .facts {
+        width: calc(100% - 240px);
+
+    }
+
+    .facts-content {
+        justify-content: space-between;
+    }
+
+    /* ------------------------------------
+         #sec -sponsors
+------------------------------------------ */
+    .sponsors {
+        width: calc(100% - 270px);
+    }
+
+    /* ------------------------------------
+         #sec -subscribe
+------------------------------------------ */
+
+
+    .subscribe {
+        width: 80%;
+        padding: 25px 4px;
+    }
+
+    .subscribe-us h2,
+    .follow-us h2 {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .subscribe-form :first-child {
+        padding: 12px;
+        width: 275px;
+    }
+
+    .subscribe-form :nth-child(2) {
+        padding: 11px;
+        width: 125px;
+        right: -23%;
+    }
+
+    .social-icon i {
+        font-size: 25px;
+    }
+
+}
+
+
+/* |||||||||||||||||||||||||||||||||||||||||||
+                (max-width:1199px)
+||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+@media(max-width:1199px) {
+
+    /* ------------------------------------
+                #sec -quick-list
+------------------------------------------ */
+    .quick-list {
+        width: calc(100% - 130px);
+    }
+
+    /* ------------------------------------
+          #sec -popular-features
+------------------------------------------ */
+    .popular-features {
+        width: calc(100% - 120px);
+        gap: 85px;
+    }
+
+    /* ------------------------------------
+         #sec -facts
+------------------------------------------ */
+    .facts {
+        width: calc(100% - 76px);
+    }
+
+    /* ------------------------------------
+         #sec -sponsors
+------------------------------------------ */
+    .sponsors {
+        width: calc(100% - 80px);
+    }
+
+    /* ------------------------------------
+         #sec -footer {
+------------------------------------------ */
+
+    footer {
+        width: calc(100% - 172px);
+    }
+
+}
+
+
+/* |||||||||||||||||||||||||||||||||||||||||||
+                (max-width:991px)
+||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+@media(max-width:991px) {
+
+    h2 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    /* ------------------------------------
+                #sec -menu 
+------------------------------------------ */
+    nav ul {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+    }
+
+    /* ------------------------------------
+                #sec -architect-intro
+------------------------------------------ */
+    .architect-title a,
+    .quick-list-info a {
+        font-size: 12px;
+        padding: 12px 15px;
+    }
+
+    /* ------------------------------------
+                #sec -quick-list
+------------------------------------------ */
+    .quick-list {
+        width: 90%;
+        gap: 20px;
+        padding-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .quick-list-info p {
+        margin: 5px 0 10px 0;
+    }
+
+    /* ------------------------------------
+          #sec -popular-features
+------------------------------------------ */
+    .popular-features {
+        width: calc(100% - 50px);
+        gap: 75px;
+    }
+
+    .features-title {
+        margin-top: 40px;
+    }
+
+    /* ------------------------------------
+         #sec -facts
+------------------------------------------ */
+
+    .facts {
+        width: calc(100% - 190px);
+        text-align: center;
+    }
+
+    .facts p {
+        margin: 24px 0 65px;
+    }
+
+    .facts-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 50px;
+    }
+
+    .content-info {
+        margin: auto;
+        width: 270PX;
+        height: 270PX;
+        padding-top: 65px;
+    }
+
+    .content-info::before {
+        width: 270px;
+        height: 270px;
+    }
+
+    /* ------------------------------------
+         #sec -sponsors
+------------------------------------------ */
+    .sponsors-logo img {
+        width: 80px;
+        margin: auto;
+    }
+
+    /* ------------------------------------
+         #sec -subscribe
+------------------------------------------ */
+
+    .subscribe {
+        width: 95%;
+    }
+
+    /* ------------------------------------
+         #sec -footer {
+------------------------------------------ */
+
+    footer {
+        width: calc(100% - 48px);
+    }
+
+
+
+}
+
+/* |||||||||||||||||||||||||||||||||||||||||||
+                (max-width:767px)
+||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+@media(max-width:767px) {
+    h3 {
+        font-size: 12px;
+    }
+
+    P {
+        font-size: 10px;
+    }
+
+
+    /* ------------------------------------
+                #sec -architect-intro
+------------------------------------------ */
+    .architect-title h1 {
+        font-size: 50px;
+    }
+
+    /* ------------------------------------
+          #sec -popular-features
+------------------------------------------ */
+    .popular-features {
+        width: calc(100% - 20px);
+        gap: 60px;
+    }
+
+    .features-title>p {
+        margin: 10px 0 0px 0;
+    }
+
+    .info-catagory {
+        margin-top: 8px;
+        padding: 10px 10px 10px 8px;
+    }
+
+    .info-catagory p {
+        margin-top: 2px;
+    }
+
+    .experience-design {
+        width: 120px;
+        height: 74px;
+    }
+
+    .experience-design h1 {
+        font-size: 20px;
+    }
+
+    .experience-design span {
+        font-size: 12px;
+    }
+
+    /* ------------------------------------
+         #sec -facts
+------------------------------------------ */
+    .facts {
+        width: calc(100% - 10px);
+        margin: 65px auto 180px;
+    }
+
+    .facts-content {
+        grid-row-gap: 35px;
+    }
+
+    .content-info {
+        width: 265PX;
+        height: 265PX;
+    }
+
+    /* ------------------------------------
+         #sec -sponsors
+------------------------------------------ */
+    .sponsors-logo {
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 20px;
+    }
+
+    /* ------------------------------------
+         #sec -subscribe
+------------------------------------------ */
+
+    .subscribe-us h2,
+    .follow-us h2 {
+        font-size: 20px;
+    }
+
+    .subscribe-form :first-child {
+        padding: 10px;
+        width: 222px;
+    }
+
+    .subscribe-form input::placeholder {
+        font-size: 10px;
+    }
+
+    .subscribe-form :nth-child(2) {
+        padding: 13px;
+        width: 88px;
+        right: -5%;
+        font-size: 10px;
+    }
+
+    .social-icon i {
+        font-size: 20px;
+    }
+
+    /* ------------------------------------
+                #sec -footer 
+------------------------------------------ */
+
+    footer p {
+        font-size: 15px;
+    }
+
+}
+
+
+
+/* |||||||||||||||||||||||||||||||||||||||||||
+                (max-width:575px)
+||||||||||||||||||||||||||||||||||||||||||||||||| */
+
+@media(max-width:575px) {
+
+    /* ------------------------------------
+                #sec -menu 
+------------------------------------------ */
+
+    p {
+        font-size: 12px;
+    }
+
+    .menu {
+        margin-bottom: 50px;
+    }
+
+    .logo a {
+        font-size: 25px;
+    }
+
+    .mobile-menu i {
+        font-size: 20px;
+    }
+
+    /* ------------------------------------
+                #sec -architect-intro
+------------------------------------------ */
+    .architect-title a,
+    .quick-list-info a {
+        margin-bottom: 10px;
+    }
+
+    .architect-title h1 {
+        font-size: 25px;
+    }
+
+    .architect-title p {
+        margin: 20px 0;
+    }
+
+    .architect-title a {
+        margin-bottom: 25px;
+    }
+
+    /* ------------------------------------
+                #sec -quick-list
+------------------------------------------ */
+    .quick-list {
+        flex-direction: column-reverse;
+    }
+
+    .thumbnail {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .quick-list-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    .quick-list-info {
+        width: 100%;
+    }
+
+    /* ------------------------------------
+          #sec -popular-features
+------------------------------------------ */
+
+    .popular-features {
+        flex-direction: column;
+    }
+
+    .features-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .features-title {
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .features-banner {
+        width: 100%;
+    }
+
+    .features-banner .banner {
+        width: 100%;
+        height: 400px;
+        z-index: 100;
+    }
+
+    .experience-design {
+        width: 150px;
+        height: 74px;
+        left: 5%;
+        top: -10%;
+    }
+
+    /* ------------------------------------
+         #sec -facts
+------------------------------------------ */
+    .facts {
+        margin: 65px auto 100px;
+    }
+
+    .facts p {
+        margin: 24px 0 45px;
+    }
+
+    .facts-content {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 10px;
+    }
+
+    .content-info {
+        width: 230PX;
+        height: 230PX;
+    }
+
+    .content-logo {
+        width: 12%;
+        margin: auto;
+    }
+
+    .content-info h2 {
+        font-size: 30px;
+    }
+
+    .content-info span {
+        font-size: 14px;
+    }
+
+    .content-info::before {
+        width: 230px;
+        height: 230px;
+    }
+
+    /* ------------------------------------
+         #sec -sponsors
+------------------------------------------ */
+    .sponsors-logo {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+    }
+
+
+    /* ------------------------------------
+         #sec -subscribe
+------------------------------------------ */
+    .subscribe {
+        border-radius: 50px;
+        flex-direction: column;
+    }
+
+    .subscribe-us {
+        margin-left: 30px;
+        margin-bottom: 15px;
+    }
+
+    .subscribe-form :first-child {
+        padding: 10px;
+        width: 83%;
+        margin-bottom: 8px;
+    }
+
+    .subscribe-form :nth-child(2) {
+        padding: 13px;
+        width: 88px;
+        right: 100px;
+        font-size: 10px;
+        position: static;
+    }
+
+    .follow-us {
+        text-align: center;
+    }
+
+    .social-icon i {
+        font-size: 16px;
+    }
+
+    /* ------------------------------------
+                #sec -footer 
+------------------------------------------ */
+    footer {
+        width: calc(100% - 40px);
+    }
+
+    footer p {
+        font-size: 10px;
+    }
+
+}
